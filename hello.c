@@ -7,7 +7,7 @@ int main()
 {
     if (t){
         printf("on this line\n");
-    }    else {
+    } else {
         printf("but not here\n");
     }
 
