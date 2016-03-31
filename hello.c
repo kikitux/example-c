@@ -1,13 +1,15 @@
 #include <stdio.h>
+#include <stdbool.h>
 
-static int t = 1;
+static int t = true;
 
 int main()
 {
-    if (t)
+    if (t){
         printf("on this line\n");
-    else
+    }    else {
         printf("but not here\n");
+    }
 
     return 0;
 }
